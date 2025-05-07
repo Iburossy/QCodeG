@@ -159,3 +159,15 @@
   color: white;
   border-color: #24292e;
 }
+
+.social-link.portfolio {
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: #0369a1;
+}
+
+.social-link.portfolio:hover {
+  background-color: #0ea5e9;
+  color: white;
+  border-color: #0ea5e9;
+}
