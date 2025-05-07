@@ -1,0 +1,9 @@
+# Si vous travaillez sur main et voulez mettre à jour gh-pages
+git checkout main
+# Faites vos modifications
+git add .
+git commit -m "Description des modifications"
+git push origin main
+git checkout gh-pages
+git merge main
+git push origin gh-pages
